@@ -20,6 +20,8 @@ Calendar Date Table: Contains calendar date
 
 ### Data Preparation
 
+Sign up for trial snowflake account. 
+
 Load the raw datasets from the CSV files.
 
 Join and clean the data to create a unified dataset for analysis.
