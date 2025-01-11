@@ -70,11 +70,6 @@ INNER JOIN (
             ON t3.cal_day BETWEEN t1.return_date AND COALESCE(t1.completion_date, '2024-9-30') --COALESCE(t1.sold_date, CURRENT_DATE())
             
  WHERE 1 = 1
-    -- AND t1.sku = '817R2806A20437CF'
-    -- AND t1.sold_date IS NOT NULL
-    -- AND t1.sku = '503H2465L81864YF'
-    -- AND t1.sku = '399E7172S63532UZ'
-    -- ORDER BY t3.cal_day DESC
 )
 
 
